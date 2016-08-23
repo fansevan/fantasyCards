@@ -1,0 +1,350 @@
+@import url(style.css);
+
+#content_wrapper {
+	height: 1070px;
+	position: relative;
+}
+
+#instructions {
+  width: 840px;
+  margin: 0 auto;
+  text-indent: 30px;
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+#parametrs {
+	margin: 40px 0 0 20px;	
+	width: 340px;		
+}
+
+#parametrs li {
+	background-color: #ffd9b3;
+	font-weight: bold;
+	list-style: none;
+	text-align: center;
+	padding: 10px 0;
+	border: 1px solid #663400;
+	border-radius: 5px;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+#parametrs .activeListItem {
+	background-color: #ffbf80;	
+}
+
+#parametrs li:not(:first-child) {
+	border-top: none;
+}
+
+#parametrs li:hover {
+	background-color: #ffbf80;
+}
+
+.divstyle {
+	background-color: #ffe6cc;
+	border: 1px solid #663400;
+	border-top: none;
+	border-radius: 5px;
+	display: none;
+	overflow: auto;	
+}
+
+.divstyle input:hover, label:hover {
+	cursor: pointer;
+}
+
+#divshape {	
+	height: 150px; 	
+}
+
+#divlayout {	
+	height: 40px; 	
+	text-align: center;
+}
+
+#divshape input,
+#divlayout input
+{	
+	margin-top: 10px;
+}
+
+#divshape input,
+#layoutcheckhoriz {
+	margin-left: 15px;
+}
+
+#divbackground,
+#divwoodenorns,
+#divstickers,
+#divstrasses,
+#divflowers {
+	height: 320px;		
+}
+
+.divstyle img {	
+	border-radius: 5px;	
+	border: 2px solid #ffe6cc;
+	cursor: pointer;		
+}
+
+.imgdiv {	
+	width: 100px;
+	height: 100px;
+	margin: 5px 0 0 5px;
+	display: inline-block;	
+	text-align: center;		
+	line-height: 96px;
+	border-radius: 5px;
+	box-shadow: 0 0 1px #b35a00;	
+}
+
+.imgdiv img {	
+	vertical-align: middle;	
+	max-width: 94px;
+	max-height: 94px;					
+}
+
+#divbackground img {	
+	width: 98px;
+	height: 98px;	
+}
+
+#divstrasses .imgdiv
+{
+	width: 30px;
+	height: 30px;	
+	line-height: 28px;
+	margin: 9px 0 0 9px;		
+}
+
+#divstrasses img {
+	vertical-align: middle;
+	max-width: 26px;
+	max-height: 26px;	
+}
+
+.divstyle img:hover {
+	border: 2px solid #663400;
+}
+
+#workfield {
+	width: 560px;
+	height: 640px;
+	position: absolute;
+	right: 20px;
+	top: 215px;
+	background-color: #ffdab3;
+	border-radius: 10px;	
+	border: 1px solid #663400;
+}
+
+#card {
+	background-color: #fff;
+	position: relative;	
+	background-size : cover;
+}
+
+.rectangle {
+	width: 380px;
+	height: 540px;
+	top: 50px;
+	left: 90px;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+}
+
+.rectanglehoriz {
+	width: 540px;
+	height: 380px; 
+	top: 130px;
+	left: 10px;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+}
+
+.square {
+	width: 380px;
+	height: 380px; 
+	top: 130px;
+	left: 90px;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+}
+
+.ellipse {
+	width: 380px;
+	height: 540px; 
+	top: 50px;
+	left: 90px;
+	border-radius: 190px / 270px;
+	-moz-border-radius: 190px / 270px;
+	-webkit-border-radius: 190px / 270px;
+}
+
+.ellipsehoriz {
+	width: 540px;
+	height: 380px; 
+	top: 130px;
+	left: 10px;
+	border-radius: 270px / 190px;
+	-moz-border-radius: 270px / 190px;
+	-webkit-border-radius: 270px / 190px;
+}
+
+.circle {
+	width: 380px;
+	height: 380px; 
+	top: 130px;
+	left: 90px;
+	border-radius: 190px;
+	-moz-border-radius: 190px;
+	-webkit-border-radius: 190px;
+}
+
+.heart {	
+	width: 380px;
+	height: 380px; 
+	top: 130px;
+	left: 90px;	    
+    border-radius: 0;    
+    background-image: url('../img/heart.png');
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+}
+
+img.activeImg {
+	border: 2px solid #663400;
+}
+
+#orderlabel {
+	position: absolute;
+	top: 860px;
+	right: 250px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#orderlabel:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#formorder {
+	font-weight: bold;
+	display: none;
+	width: 520px;		
+	position: absolute;
+	top: 855px;
+	right: 20px;
+	background-color: #ffdab3;
+	border-radius: 10px;
+	padding: 20px;	
+	border-top: 1px solid #663400;
+}
+#formorder p {
+	margin-bottom: 10px;	
+}
+
+#formorder p:not(:first-child) {
+  display: inline-block;
+  width: 50%;
+}
+
+#formorder textarea {
+    width: 100%;
+    resize: none;    
+    background-color: #ffe6cc;
+    font: 16px 'Lucida Console', Monospace;
+    color: #663400;
+ 	height: 4em;    	
+}
+
+.inpfields {
+	width: 100%;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #ffe6cc;
+    font-family: 'Lucida Console', Monospace;
+    color: #663400;    
+}
+
+.formbutton {
+	margin-top: 8px;
+	color: #663400;
+	padding: 10px 25px;
+	border-radius: 20px;	
+	background-color: #ffe6cc;
+	border: 1px solid #663400;
+	font: 16px "Inglobal",Arial,sans-serif;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.formbutton:hover {
+	background-color: #663400;
+	color: #ffe6cc;
+}
+
+.aligntocenter {	
+	text-align: center;
+}
+
+.formcall:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#formorder #tel {
+	width: 25%;
+	margin-left: 20px;
+}
+
+.error {
+	border: 1px solid red;
+}
+
+#dialog, #mask {
+	display: none;
+	position: absolute;
+}
+
+#dialog {
+	background-color: #ffdab3;
+	border: 1px solid #663400;
+	text-align: center;
+	border-radius: 15px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 20px 20px 20px;
+	z-index: 200;
+}
+
+#dialog p {
+	padding: 10px 10px 15px 10px;
+}
+
+#mask {
+	background-color: #fff3e5;
+	z-index: 150;
+}
+
+#close {	
+	color: #663400;
+	padding: 10px;
+	border-radius: 50%;	
+	background-color: #ffe6cc;
+	border: 1px solid #663400;
+	cursor: pointer;
+	z-index: 200;
+}
+
+#close:hover {
+	background-color: #663400;
+	color: #ffe6cc;
+}

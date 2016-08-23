@@ -1,0 +1,42 @@
+@import url(style.css);
+
+#content_wrapper p{
+  line-height: 1.5;
+  margin: 0 auto;  
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold; 
+}
+
+#content_wrapper .contacts {
+  display: inline-block;
+  text-align: center;  
+  padding: 10px;  
+  margin: 25px;
+  width: 350px;  
+  box-shadow: 0 0 10px #b35a00;
+  border-radius: 50%;
+}
+
+#content_wrapper .contacts:first-child,
+#content_wrapper .contacts:nth-child(2) {
+  margin-top: 40px
+}
+
+#content_wrapper .contacts:nth-child(even) {
+  margin-left: 80px;
+}
+
+#content_wrapper .contacts p {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+#content_wrapper a {
+  text-decoration: none;
+  color: #663400;
+}
+
+#content_wrapper a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,44 @@
+#content_wrapper{
+	margin-top: 0;
+	padding-top: 1px;
+}
+
+a {
+	margin: 0 20px;
+}
+
+h1 {
+	margin-left: 20px;
+}
+
+#tomain {
+	text-align: right;
+	margin-top: 20px;
+}
+
+img {
+	max-width: 200px;
+	max-height: 200px;
+}
+
+.imgportfolio,
+.imgbackground {
+	width: 200px;
+	height: 200px;
+}
+
+.imgdiv {
+	display: inline-block;
+	margin: 19px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+form {
+	margin: 20px;
+	border: 1px solid black;
+}
+
+#uploadButton {
+	display: none;
+}

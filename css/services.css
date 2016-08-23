@@ -1,0 +1,68 @@
+@import url(style.css);
+
+#content_wrapper {
+  text-align: justify;
+  line-height: 1.5;  
+  font-size: 18px;
+}
+
+#content_wrapper p, #content_wrapper ul {  
+  width: 840px;
+  margin: 0 auto;
+  text-indent: 30px; /* Красная строка */
+}
+
+#content_wrapper li {    
+  list-style: none;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;   
+  margin-bottom: 10px; 
+}
+
+#content_wrapper li:not(:first-child) {
+  margin-top: 10px;
+}
+
+#content_wrapper li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#content_wrapper .activeListItem {
+  text-decoration: underline;
+}
+
+.divforp {
+	display: none;
+}
+
+#bigdiv {
+  width: 840px;
+  margin: 5px auto;
+  text-indent: 0;
+}
+
+.imgdiv {
+  position: relative;
+  width: 390px;
+  height: 310px;
+  margin: 8px;
+  display: inline-block;          
+  border-radius: 5px;
+}
+
+.imgdiv:first-child {
+  margin-right: 30px;
+}
+
+.imgdiv img {
+  position: absolute;
+  top: 0;
+  left: 0;  
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 5px;
+  width: 380px;
+  height: 300px;        
+}

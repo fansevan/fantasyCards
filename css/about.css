@@ -1,0 +1,37 @@
+@import url(style.css);
+
+#content_wrapper {  
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+#content_wrapper p {
+  width: 840px;
+  margin: 0 auto;
+  text-indent: 30px; /* Красная строка */
+}
+
+#bigdiv {
+  width: 840px;
+  margin: 5px auto;
+}
+
+.imgdiv {
+  width: 190px;
+  height: 190px;
+  margin: 8px;
+  display: inline-block;  
+  text-align: center;     
+  line-height: 185px;
+  border-radius: 5px;
+}
+
+.imgdiv img {
+  vertical-align: middle; 
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 5px;
+  width: 180px;
+  height: 180px;        
+}
